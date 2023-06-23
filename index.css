@@ -1,0 +1,172 @@
+body{
+  margin: auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+header{
+  /*border: 5px solid black;*/
+  height: 60px;
+  background-color: #3b2623;
+}
+
+#brand{
+  float: left;
+  font-size: 30px;
+  color: white;
+  margin-top: 1%;
+  margin-left: 1%;
+}
+
+.slogo{
+  height: 50px;
+  width: 50px;
+  float: right;
+}
+
+#search{
+  height: 450px;
+  background-image: url(./images/food\ wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 450px;
+  margin: 0px;
+}
+
+.logo{
+  height: 150px;
+  width: 150px;
+  background-color: white;
+  border-radius: 50%;
+  margin-left: 45%;
+  margin-top: 2%;
+  font-size: 90px;
+  position: absolute;
+}
+
+.logo > span{
+  margin-left:25% ;
+  margin-top: 15%;
+  position: absolute;
+}
+
+#heading {
+  font-size: 50px;
+  color: darkred;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  margin-left:20%;
+  margin-top: 15%;
+  position: absolute;
+}
+
+.dropdown{
+  height: 60px;
+  width: 50%;
+  margin-left:12% ;
+  margin-top: 20%;
+  position: absolute;
+}
+
+select{
+  height: 60px;
+  width: 40%;
+  font-size: 20px;
+  text-align: center;
+  
+}
+
+#restselect{
+  width: 59%;
+  margin-left:29% ;
+  margin-top: 20%;
+}
+
+#quicksearch{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  display: inline-block;
+}
+
+.quickheading{
+  color: #3b2623;
+  font-size: 50px;
+  font-weight: bold;
+  display: block;
+}
+
+.quicksubheading{
+  color: grey;
+  font-size: 20px;
+  line-height: 2;
+  position: absolute;
+}
+
+.tilecontainer{
+  height: 180px;
+  width: 30%;
+  background-color: whitesmoke;
+  margin-left: 2%;
+  margin-top: 3%;
+  float: left;
+  box-shadow: 10px 20px 10px black;
+}
+
+.tilecomponent1{
+  width: 52%;
+  float: left;
+}
+
+.tilecomponent1 > img{
+  height: 100%;
+  width: 100%;
+}
+
+
+
+.tilecomponent2{
+  width: 45%;
+  float: left;
+  margin-left: 3%;
+  margin-top: 15%;
+}
+
+.compheading{
+  font-size: 25px;
+  color: lightslategray;
+  font-weight: bold;
+  
+}
+
+.compsubheading{
+  font-size: 20px;
+  color: gray;
+  
+}
+
+footer{
+  height: 120px;
+  background-color: slategray;
+  color: white;
+  text-align: center;
+}
+
+.footdiv{
+  float: left;
+  width: 30%;
+  border-right: 1px solid white;
+}
+
+
+
+ul{
+  list-style: none;
+}
+
+.noborder{
+  border: none;
+}
+
